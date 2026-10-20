@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+ h1{
+    text-align: center;
+    color: aliceblue;
+
+ }
+.menu {
+    float: left;
+    width: 20%;
+    background-color:wheat;
+}
+
+.menuitem {
+    padding: 8px;
+    margin-top: 7px;
+    border-bottom: 1px solid red;
+}
+
+.main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    overflow: hidden;
+    background-color: antiquewhite;
+}
+
+.right {
+    background-color: lightblue;
+    float: left;
+    width: 20%;
+    padding: 10px 15px;
+    margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+
+    /* For tablets: */
+    .main {
+        background-color:red;
+        width: 80%;
+        padding: 0;
+    }
+    /* For phone: */
+        .main {
+            background-color: yellow;
+            width: 40%;
+            padding: 0;
+        }
+    
+
+    .right {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:500px) {
+
+    /* For mobile phones: */
+    .menu,
+    .main,
+    .right {
+        width: 100%;
+    }
+}
+
+h2,h3{
+  background-color: blue;
+}
+p{
+    background-color: blueviolet;
+}

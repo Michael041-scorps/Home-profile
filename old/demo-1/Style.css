@@ -1,0 +1,117 @@
+header {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    height: 90px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+main {
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+ul {
+    color: blue;
+    text-align: left;
+}
+
+.wrapper::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.wrapper main {
+    float: left;
+    width: 70%;
+    height: 400px;
+}
+
+.wrapper aside {
+    float: left;
+    width: 15%;
+    height: 400px;
+    background-color: antiquewhite;
+}
+
+section form {
+    background-color: aquamarine;
+    color: black;
+    float: left;
+    width: 70%;
+    height: 100px;
+
+
+}
+
+.div {
+
+    display: inline-block;
+}
+
+
+aside {
+    float: right;
+    width: 30%;
+    height: 100px;
+    background-color: antiquewhite;
+}
+
+
+
+
+footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+main .box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: inline-block;
+    gap: 20px
+}
+
+.container {
+    width: 90%;
+    min-width: 100px;
+
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    footer {
+        background-color: navy;
+    }
+
+    aside {
+        background-color: blueviolet;
+    }
+
+    ul {
+        background-color: azure;
+    }
+    main { 
+        max-width: 427px;
+        background-color: brown;
+        
+    }
+    section form { 
+    background-color: bisque;
+}
+}
